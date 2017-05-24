@@ -1,0 +1,234 @@
+@keyframes bottom{
+	from{
+		top: -230px;
+		opacity: 0;
+	}
+	50%{
+		top:30px;
+		opacity: 0.5;
+	}
+	to{
+		top:0px;
+		opacity: 1;
+
+	}
+}
+@keyframes right_left{
+	from{
+		position: relative;
+		left: 1000px;
+		opacity: 0;
+	}
+	50%{
+		left: -50px;
+		opacity: 1;
+	}
+	to{
+		position: relative;
+		left:0px;
+		opacity: 1;
+
+	}
+}
+@keyframes left_right{
+	from{
+		position: relative;
+		right: 1000px;
+		opacity: 0;
+	}
+	50%{
+		right: -50px;
+		opacity: 1;
+	}
+	to{
+		position: relative;
+		right:0px;
+		opacity: 1;
+
+	}
+}
+@keyframes bottom_top{
+	from{
+		position: relative;
+		top: 200px;
+		opacity: 0;
+	}
+	50%{
+		top: -100px;
+		opacity: 1;
+	}
+	to{
+		position: relative;
+		top:0px;
+		opacity: 1;
+
+	}
+}
+@keyframes kaorou_top_bottom{
+	from{
+		position: relative;
+		bottom: 200px;
+		left: -200px;
+		opacity: 0;
+	}
+	50%{
+		bottom: -100px;
+		left: 100px;
+		opacity: 1;
+	}
+	to{
+		position: relative;
+		bottom:0px;
+		left: 0px;
+		opacity: 1;
+	}
+}
+@keyframes kaorou_left_right{
+	from{
+		position: relative;
+		bottom:-200px;
+		right: 200px;
+		opacity: 0;
+	}
+	50%{
+		bottom: 100px;
+		right: -100px;
+		opacity: 1;
+	}
+	to{
+		position: relative;
+		bottom:0px;
+		right: 0px;
+		opacity: 1;
+	}
+}
+@keyframes kaorou_right_left{
+	from{
+		position: relative;
+		bottom:200px;
+		left: 200px;
+		opacity: 0;
+	}
+	50%{
+		bottom: -100px;
+		left:-100px;
+		opacity: 1;
+	}
+	to{
+		position: relative;
+		bottom:0px;
+		left: 0px;
+		opacity: 1;
+	}
+}
+@keyframes kaorou_bottom_top{
+	from{
+		position: relative;
+		top:200px;
+		left: 200px;
+		opacity: 0;
+	}
+	50%{
+		top: -100px;
+		left:-100px;
+		opacity: 1;
+	}
+	to{
+		position: relative;
+		top:0px;
+		left: 0px;
+		opacity: 1;
+	}
+}
+.introduce{
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 30px;
+	text-align: center;
+	display: block;
+	position: relative;
+	font-size: 14px;
+}
+.bottom .introduce{
+	-webkit-animation-name:bottom;
+	-webkit-animation-duration:1s;
+	-webkit-animation-timing-function: ease;
+}
+.animation_left{
+	display: block;
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+
+.right_left .animation_left{
+	-webkit-animation-name:right_left;
+	-webkit-animation-duration:3s;
+	-webkit-animation-timing-function: ease;
+}
+.animation_right{
+	display: block;
+	position: relative;
+	right: 0px;
+	top: 0px;
+}
+.left_right .animation_right{
+	-webkit-animation-name:left_right;
+	-webkit-animation-duration:3s;
+	-webkit-animation-timing-function: ease;
+}
+.animation_top{
+	display: block;
+	position: relative;
+	right: 0px;
+	bottom: 0px;
+}
+.bottom_top .animation_top{
+	-webkit-animation-name:bottom_top;
+	-webkit-animation-duration:3s;
+	-webkit-animation-timing-function: ease;
+}
+.animation_kaorou_top_bottom{
+	display: block;
+	position: relative;
+	right: 0px;
+	bottom: 0px;
+}
+.kaorou_top_bottom .animation_kaorou_top_bottom{
+	-webkit-animation-name:kaorou_top_bottom;
+	-webkit-animation-duration:2s;
+	-webkit-animation-timing-function: ease;
+}
+.animation_kaorou_left_right {
+	display: block;
+	position: relative;
+	right: 0px;
+	bottom: 0px;
+}
+.kaorou_top_bottom .animation_kaorou_left_right {
+	-webkit-animation-name:kaorou_left_right;
+	-webkit-animation-duration:2s;
+	-webkit-animation-timing-function: ease;
+}
+.animation_kaorou_right_left {
+	display: block;
+	position: relative;
+	left: 0px;
+	bottom: 0px;
+}
+.kaorou_top_bottom .animation_kaorou_right_left {
+	-webkit-animation-name:kaorou_right_left;
+	-webkit-animation-duration:2s;
+	-webkit-animation-timing-function: ease;
+}
+.animation_kaorou_bottom_top {
+	display: block;
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+.kaorou_bottom_top .animation_kaorou_bottom_top {
+	-webkit-animation-name:kaorou_bottom_top;
+	-webkit-animation-duration:2s;
+	-webkit-animation-timing-function: ease;
+}

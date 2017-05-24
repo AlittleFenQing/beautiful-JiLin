@@ -1,0 +1,7 @@
+@media screen and (min-width: 1200px){
+	.kaorou{margin-top: -150px;margin-left: 30%;}
+}
+@media screen and (min-width: 610px) and (max-width: 1200px){
+	.kaorou{position: relative;z-index: 1;width: 604px;height: 604px;margin:200px auto;display: block; transform: rotate(45deg);}
+	.duizhua{display: none;}
+}
